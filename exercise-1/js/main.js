@@ -7,20 +7,30 @@ var changeText;
 $(function(){
   // Select elements with class "italics" and set their css "font-style", to "italic"
 
-
+	$('.italics').attr('font-style, italic);
   // Select all svgs and change their attr "height" to 200
+
+	$('svg');
+	$('svg').attr('height', 200); 
 
 
   // Select your first svg and change it's width attribute to 10
 
+  $('svg:first').attr('width', 10)
+
 
   // Select even rows in the table and set their css "background" to "lightgray"
 
+  $('tr:even').attr('background', 'lightgray');
 
   // Select the input and set the attribute "placeholder" to "start typing"
 
+  $('input').attr('placeholder', 'start typing');
+
 
   // Set the input val to "hello"
+
+  
 
 
 
